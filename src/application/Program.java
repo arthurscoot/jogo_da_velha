@@ -46,6 +46,7 @@ public class Program {
 	
 		
 		} while (part.vitoria());
+		System.out.println("VOCE GANHOU");
 		}
 		catch (TabuleiroException e) {
 			System.out.println(e.getMessage());
